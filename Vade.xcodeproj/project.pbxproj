@@ -7,21 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0D8415D278F1BD0476B5507 /* Pods_Vade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19682642B90623F4F8716D82 /* Pods_Vade.framework */; };
 		FA19CF3322037EAB00975E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19CF3222037EAB00975E79 /* AppDelegate.swift */; };
-		FA19CF3522037EAB00975E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19CF3422037EAB00975E79 /* ViewController.swift */; };
+		FA19CF3522037EAB00975E79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19CF3422037EAB00975E79 /* LoginViewController.swift */; };
 		FA19CF3822037EAB00975E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA19CF3622037EAB00975E79 /* Main.storyboard */; };
 		FA19CF3A22037EAE00975E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA19CF3922037EAE00975E79 /* Assets.xcassets */; };
 		FA19CF3D22037EAE00975E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA19CF3B22037EAE00975E79 /* LaunchScreen.storyboard */; };
+		FA2AB888222C96DC004B0048 /* DetailMapControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2AB887222C96DC004B0048 /* DetailMapControl.swift */; };
+		FA2CC2DB2203810F00456DEB /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2CC2DA2203810F00456DEB /* Header.swift */; };
+		FA2CC2DD2203863B00456DEB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2CC2DC2203863B00456DEB /* GoogleService-Info.plist */; };
+		FA6A669C2214E4F0008D3CE9 /* VadeFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A669B2214E4F0008D3CE9 /* VadeFirebase.swift */; };
+		FA8692C02203A8E000D4331C /* vade.pem in Resources */ = {isa = PBXBuildFile; fileRef = FA8692BF2203A8E000D4331C /* vade.pem */; };
+		FAA81D5C220388890086011B /* ParkingLotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81D5B220388890086011B /* ParkingLotViewController.swift */; };
+		FAA81D5E220388950086011B /* ParkingTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81D5D220388950086011B /* ParkingTable.swift */; };
+		FAA81D6222038BC70086011B /* LotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81D6122038BC70086011B /* LotTableViewCell.swift */; };
+		FACD5BF92212A9950094ADFC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD5BF82212A9950094ADFC /* DetailViewController.swift */; };
+		FACD5BFB2212A9D30094ADFC /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD5BFA2212A9D30094ADFC /* DetailTableViewCell.swift */; };
+		FAD5CB922212AB40004C3F1F /* DetailTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5CB912212AB40004C3F1F /* DetailTable.swift */; };
+		FAECF9A7228B15B400868CCD /* VadeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9A6228B15B400868CCD /* VadeAPI.swift */; };
+		FAECF9B7228B1C9900868CCD /* DecodableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9A9228B1C9800868CCD /* DecodableObject.swift */; };
+		FAECF9B8228B1C9900868CCD /* ChristiansLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9AA228B1C9800868CCD /* ChristiansLibrary.swift */; };
+		FAECF9BA228B1C9900868CCD /* ChristiansFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9AC228B1C9800868CCD /* ChristiansFirebase.swift */; };
+		FAECF9BB228B1C9900868CCD /* EmptyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9AD228B1C9800868CCD /* EmptyTableView.swift */; };
+		FAECF9BC228B1C9900868CCD /* MapStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9AE228B1C9800868CCD /* MapStuff.swift */; };
+		FAECF9BD228B1C9900868CCD /* MemoryHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9AF228B1C9800868CCD /* MemoryHelp.swift */; };
+		FAECF9BE228B1C9900868CCD /* EasyNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9B0228B1C9800868CCD /* EasyNavBar.swift */; };
+		FAECF9BF228B1C9900868CCD /* GlobalAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9B1228B1C9800868CCD /* GlobalAttributes.swift */; };
+		FAECF9C3228B1C9900868CCD /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9B6228B1C9800868CCD /* LoadingView.swift */; };
+		FAECF9C5228B4DB200868CCD /* TotalSpotViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAECF9C4228B4DB200868CCD /* TotalSpotViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19682642B90623F4F8716D82 /* Pods_Vade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B37385BE32CCA85F2DC348 /* Pods-Vade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vade.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vade/Pods-Vade.release.xcconfig"; sourceTree = "<group>"; };
 		FA19CF2F22037EAB00975E79 /* Vade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA19CF3222037EAB00975E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA19CF3422037EAB00975E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA19CF3422037EAB00975E79 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA19CF3722037EAB00975E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA19CF3922037EAE00975E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA19CF3C22037EAE00975E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA19CF3E22037EAE00975E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2AB887222C96DC004B0048 /* DetailMapControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapControl.swift; sourceTree = "<group>"; };
+		FA2CC2DA2203810F00456DEB /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		FA2CC2DC2203863B00456DEB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA6A669B2214E4F0008D3CE9 /* VadeFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VadeFirebase.swift; sourceTree = "<group>"; };
+		FA8692BF2203A8E000D4331C /* vade.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vade.pem; sourceTree = "<group>"; };
+		FAA81D5B220388890086011B /* ParkingLotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotViewController.swift; sourceTree = "<group>"; };
+		FAA81D5D220388950086011B /* ParkingTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingTable.swift; sourceTree = "<group>"; };
+		FAA81D6122038BC70086011B /* LotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotTableViewCell.swift; sourceTree = "<group>"; };
+		FACD5BF82212A9950094ADFC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FACD5BFA2212A9D30094ADFC /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		FAD5CB912212AB40004C3F1F /* DetailTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTable.swift; sourceTree = "<group>"; };
+		FAECF9A6228B15B400868CCD /* VadeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VadeAPI.swift; sourceTree = "<group>"; };
+		FAECF9A9228B1C9800868CCD /* DecodableObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodableObject.swift; sourceTree = "<group>"; };
+		FAECF9AA228B1C9800868CCD /* ChristiansLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChristiansLibrary.swift; sourceTree = "<group>"; };
+		FAECF9AC228B1C9800868CCD /* ChristiansFirebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChristiansFirebase.swift; sourceTree = "<group>"; };
+		FAECF9AD228B1C9800868CCD /* EmptyTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyTableView.swift; sourceTree = "<group>"; };
+		FAECF9AE228B1C9800868CCD /* MapStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapStuff.swift; sourceTree = "<group>"; };
+		FAECF9AF228B1C9800868CCD /* MemoryHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryHelp.swift; sourceTree = "<group>"; };
+		FAECF9B0228B1C9800868CCD /* EasyNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyNavBar.swift; sourceTree = "<group>"; };
+		FAECF9B1228B1C9800868CCD /* GlobalAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalAttributes.swift; sourceTree = "<group>"; };
+		FAECF9B6228B1C9800868CCD /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FAECF9C4228B4DB200868CCD /* TotalSpotViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalSpotViewer.swift; sourceTree = "<group>"; };
+		FB5E5E7D2C2D136183BFF302 /* Pods-Vade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vade/Pods-Vade.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +77,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D8415D278F1BD0476B5507 /* Pods_Vade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43FC2CDA161D79B61589E10E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19682642B90623F4F8716D82 /* Pods_Vade.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62B011CB263071932A9C3A83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB5E5E7D2C2D136183BFF302 /* Pods-Vade.debug.xcconfig */,
+				B9B37385BE32CCA85F2DC348 /* Pods-Vade.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA19CF2622037EAB00975E79 = {
 			isa = PBXGroup;
 			children = (
 				FA19CF3122037EAB00975E79 /* Vade */,
 				FA19CF3022037EAB00975E79 /* Products */,
+				62B011CB263071932A9C3A83 /* Pods */,
+				43FC2CDA161D79B61589E10E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +122,84 @@
 		FA19CF3122037EAB00975E79 /* Vade */ = {
 			isa = PBXGroup;
 			children = (
-				FA19CF3222037EAB00975E79 /* AppDelegate.swift */,
-				FA19CF3422037EAB00975E79 /* ViewController.swift */,
-				FA19CF3622037EAB00975E79 /* Main.storyboard */,
+				FA8692BF2203A8E000D4331C /* vade.pem */,
 				FA19CF3922037EAE00975E79 /* Assets.xcassets */,
+				FA19CF3622037EAB00975E79 /* Main.storyboard */,
+				FA19CF3222037EAB00975E79 /* AppDelegate.swift */,
+				FA2CC2DA2203810F00456DEB /* Header.swift */,
+				FA6A669B2214E4F0008D3CE9 /* VadeFirebase.swift */,
+				FAA81D59220388510086011B /* Login */,
+				FAECF9C6228B4DC200868CCD /* TotalSpots */,
+				FACD5BF72212A9840094ADFC /* DetailView */,
+				FAA81D5A2203886A0086011B /* ParkingLots */,
+				FAECF9A5228B15A300868CCD /* VadeAPI */,
+				FAECF9A8228B1C9800868CCD /* Christians Library */,
 				FA19CF3B22037EAE00975E79 /* LaunchScreen.storyboard */,
 				FA19CF3E22037EAE00975E79 /* Info.plist */,
+				FA2CC2DC2203863B00456DEB /* GoogleService-Info.plist */,
 			);
 			path = Vade;
+			sourceTree = "<group>";
+		};
+		FAA81D59220388510086011B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FA19CF3422037EAB00975E79 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FAA81D5A2203886A0086011B /* ParkingLots */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81D5B220388890086011B /* ParkingLotViewController.swift */,
+				FAA81D5D220388950086011B /* ParkingTable.swift */,
+				FAA81D6122038BC70086011B /* LotTableViewCell.swift */,
+			);
+			path = ParkingLots;
+			sourceTree = "<group>";
+		};
+		FACD5BF72212A9840094ADFC /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				FACD5BF82212A9950094ADFC /* DetailViewController.swift */,
+				FA2AB887222C96DC004B0048 /* DetailMapControl.swift */,
+				FAD5CB912212AB40004C3F1F /* DetailTable.swift */,
+				FACD5BFA2212A9D30094ADFC /* DetailTableViewCell.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		FAECF9A5228B15A300868CCD /* VadeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				FAECF9A6228B15B400868CCD /* VadeAPI.swift */,
+			);
+			path = VadeAPI;
+			sourceTree = "<group>";
+		};
+		FAECF9A8228B1C9800868CCD /* Christians Library */ = {
+			isa = PBXGroup;
+			children = (
+				FAECF9A9228B1C9800868CCD /* DecodableObject.swift */,
+				FAECF9AA228B1C9800868CCD /* ChristiansLibrary.swift */,
+				FAECF9AC228B1C9800868CCD /* ChristiansFirebase.swift */,
+				FAECF9AD228B1C9800868CCD /* EmptyTableView.swift */,
+				FAECF9AE228B1C9800868CCD /* MapStuff.swift */,
+				FAECF9AF228B1C9800868CCD /* MemoryHelp.swift */,
+				FAECF9B0228B1C9800868CCD /* EasyNavBar.swift */,
+				FAECF9B1228B1C9800868CCD /* GlobalAttributes.swift */,
+				FAECF9B6228B1C9800868CCD /* LoadingView.swift */,
+			);
+			path = "Christians Library";
+			sourceTree = "<group>";
+		};
+		FAECF9C6228B4DC200868CCD /* TotalSpots */ = {
+			isa = PBXGroup;
+			children = (
+				FAECF9C4228B4DB200868CCD /* TotalSpotViewer.swift */,
+			);
+			path = TotalSpots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA19CF4122037EAE00975E79 /* Build configuration list for PBXNativeTarget "Vade" */;
 			buildPhases = (
+				6E3176A7C486FEBB95C9C22D /* [CP] Check Pods Manifest.lock */,
 				FA19CF2B22037EAB00975E79 /* Sources */,
 				FA19CF2C22037EAB00975E79 /* Frameworks */,
 				FA19CF2D22037EAB00975E79 /* Resources */,
+				ABEA75597DF6FA65FD94CE62 /* [CP] Embed Pods Frameworks */,
+				A87090F0DF14ECE341A82CF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA19CF3D22037EAE00975E79 /* LaunchScreen.storyboard in Resources */,
+				FA2CC2DD2203863B00456DEB /* GoogleService-Info.plist in Resources */,
+				FA8692C02203A8E000D4331C /* vade.pem in Resources */,
 				FA19CF3A22037EAE00975E79 /* Assets.xcassets in Resources */,
 				FA19CF3822037EAB00975E79 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +273,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E3176A7C486FEBB95C9C22D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A87090F0DF14ECE341A82CF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vade/Pods-Vade-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vade/Pods-Vade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEA75597DF6FA65FD94CE62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vade/Pods-Vade-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/CRRefresh/CRRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBRadioCheckboxButton/MBRadioCheckboxButton.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SHSearchBar/SHSearchBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UIEmptyState/UIEmptyState.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CRRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBRadioCheckboxButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SHSearchBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIEmptyState.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vade/Pods-Vade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA19CF2B22037EAB00975E79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA19CF3522037EAB00975E79 /* ViewController.swift in Sources */,
+				FA19CF3522037EAB00975E79 /* LoginViewController.swift in Sources */,
+				FA2CC2DB2203810F00456DEB /* Header.swift in Sources */,
+				FAECF9BF228B1C9900868CCD /* GlobalAttributes.swift in Sources */,
+				FACD5BFB2212A9D30094ADFC /* DetailTableViewCell.swift in Sources */,
+				FAECF9B7228B1C9900868CCD /* DecodableObject.swift in Sources */,
+				FAA81D5E220388950086011B /* ParkingTable.swift in Sources */,
+				FAECF9BC228B1C9900868CCD /* MapStuff.swift in Sources */,
+				FA2AB888222C96DC004B0048 /* DetailMapControl.swift in Sources */,
 				FA19CF3322037EAB00975E79 /* AppDelegate.swift in Sources */,
+				FAA81D5C220388890086011B /* ParkingLotViewController.swift in Sources */,
+				FAA81D6222038BC70086011B /* LotTableViewCell.swift in Sources */,
+				FACD5BF92212A9950094ADFC /* DetailViewController.swift in Sources */,
+				FA6A669C2214E4F0008D3CE9 /* VadeFirebase.swift in Sources */,
+				FAECF9BD228B1C9900868CCD /* MemoryHelp.swift in Sources */,
+				FAECF9BA228B1C9900868CCD /* ChristiansFirebase.swift in Sources */,
+				FAECF9C3228B1C9900868CCD /* LoadingView.swift in Sources */,
+				FAECF9BB228B1C9900868CCD /* EmptyTableView.swift in Sources */,
+				FAECF9B8228B1C9900868CCD /* ChristiansLibrary.swift in Sources */,
+				FAECF9A7228B15B400868CCD /* VadeAPI.swift in Sources */,
+				FAD5CB922212AB40004C3F1F /* DetailTable.swift in Sources */,
+				FAECF9C5228B4DB200868CCD /* TotalSpotViewer.swift in Sources */,
+				FAECF9BE228B1C9900868CCD /* EasyNavBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +552,18 @@
 		};
 		FA19CF4222037EAE00975E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5E5E7D2C2D136183BFF302 /* Pods-Vade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T6T9M8644;
+				DEVELOPMENT_TEAM = P7J2GV5KE5;
 				INFOPLIST_FILE = Vade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Burkes.Vade;
+				PRODUCT_BUNDLE_IDENTIFIER = Burkes.Vade.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,16 +572,18 @@
 		};
 		FA19CF4322037EAE00975E79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B37385BE32CCA85F2DC348 /* Pods-Vade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T6T9M8644;
+				DEVELOPMENT_TEAM = P7J2GV5KE5;
 				INFOPLIST_FILE = Vade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Burkes.Vade;
+				PRODUCT_BUNDLE_IDENTIFIER = Burkes.Vade.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
